@@ -41,7 +41,7 @@ int main() {
     }
     //jika file tidak ada
     else{
-        cout << "Unable to aopen file" << endl;
+        cout << "Unable to open file" << endl;
         return 0;
     }
 
