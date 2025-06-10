@@ -11,4 +11,11 @@ int main () {
         // blok ini akan dieksekusi
         cout << "Pengecualian akan dieksekusi" << endl;
     }
+    catch (...) {
+        /*jika selian integer maka blok ini akan diekskusi*/
+        cout << "Default pengecualian dieksekusi" << endl;
+
+    }
+    return 0;
+
 }
