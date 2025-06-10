@@ -42,4 +42,10 @@ int main () {
         //tutup file setelah selesai
         infile.close(); 
     }
+    //jika file tidak ada
+    else{
+        cout << "Unable to open file" << endl;
+        return 0;
+    }
+
 }
